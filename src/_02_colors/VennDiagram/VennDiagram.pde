@@ -1,1 +1,16 @@
 size(600,600);
+fill(255,0,0,50);
+ellipse(200,200,200,200);
+fill(0,0,255,50);
+ellipse(300,200,200,200);
+fill(0,255,0,50);
+ellipse(250,300,200,200);
+fill(#030303);
+textSize(12);
+text("I like eating", 110,200);
+fill(#030303);
+textSize(12);
+text("I like playing basketball", 260,200);
+fill(#030303);
+textSize(12);
+text("I like playing video games", 150,320);
