@@ -9,10 +9,21 @@ public static void main(String[] args) {
 
 		// 1. Save something remarkable about each person in a variable.
 
+String bob = "Has a very big brain";
+String joe = "Is a very good programmer";
+String billy = "Is a very good basketball player";
+
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-
+String answer = JOptionPane.showInputDialog("Please enter a name.");
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
-
+if (answer .equals("bob")) {
+JOptionPane.showMessageDialog(null, "Has a very big brain");
 	}
+if (answer .equals("joe")) {
+	JOptionPane.showMessageDialog(null, "Is a very good programmer");
 }
-
+if (answer .equals("billy")) {
+	JOptionPane.showMessageDialog(null, "Is a very good basketball player");
+}
+}
+}
