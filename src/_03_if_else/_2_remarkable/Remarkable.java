@@ -17,13 +17,13 @@ String billy = "Is a very good basketball player";
 String answer = JOptionPane.showInputDialog("Please enter a name.");
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
 if (answer .equals("bob")) {
-JOptionPane.showMessageDialog(null, "Has a very big brain");
+JOptionPane.showMessageDialog(null, bob);
 	}
 if (answer .equals("joe")) {
-	JOptionPane.showMessageDialog(null, "Is a very good programmer");
+	JOptionPane.showMessageDialog(null, joe);
 }
 if (answer .equals("billy")) {
-	JOptionPane.showMessageDialog(null, "Is a very good basketball player");
+	JOptionPane.showMessageDialog(null, billy);
 }
 }
 }
